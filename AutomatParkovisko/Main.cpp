@@ -13,7 +13,7 @@ int main()
 	while (true)
 	{
 		
-		cout << "Vstup zadavat [a,b] pricom a,b budú iba 0,1" << "\n" << "Vstup moze vyzerat \"0,0\""<< "\nPre ukoncenie programu zadajte nieco ine \n";
+		cout << "Vstup zadavat [a,b] pricom a,b budu iba 0,1" << "\n" << "Vstup moze vyzerat \"0,0\""<< "\nPre ukoncenie programu zadajte nieco ine \n";
 		cout << "Zadajte vstup:   ";
 		string vstup;
 		cin >> vstup;
@@ -37,8 +37,13 @@ int main()
 		else
 			return 0;
 
-		cout << "\n\tStav: S" << aktualnyStav << "\n";
-
+		cout << "\n\tStav: S" << aktualnyStav << "\n Semafor: ";
+		if (aktualnyStav >= 2)
+		{
+			cout << "cervena\n\n\n";
+			continue;
+		}
+		cout << "zelena\n\n\n";
 		
 
 	}
