@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	/// <summary>
-	/// Oznaèovanie stavoj je pomocou èísel S0 = 0, S1 = 1....
+	/// Oznacovanie stavoj je pomocou cisel S0 = 0, S1 = 1....
 	/// </summary>
 	/// <returns></returns>
 	int stav[4][4] = { {0,0,0,1},{1,2,0,1},{1,2,2,3,},{3,3,2,3} };
